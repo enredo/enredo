@@ -26,5 +26,6 @@ minhaVariavel não foi definido
 ```
 
 Próximos passos:
-[] Finalizar core
-[] Criar app em electron simulando IDE
+- [x] Inciar
+- [ ] Finalizar core  
+- [ ] Criar app em electron simulando IDE 
