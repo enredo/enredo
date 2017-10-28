@@ -1,2 +1,2 @@
-# enredo-lang
+# enredo
 Linguagem de programação procedural em portugues
