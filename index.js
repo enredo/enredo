@@ -6,9 +6,10 @@ const encodingOptions = {
   encoding: 'utf-8'
 }
 
+const ENR_FILE_PATH = process.argv[2]
 const BUILD_PATH = path.join(__dirname, 'build.js')
 
-const getFile = () => fs.readFileSync('./teste.enr', encodingOptions)
+const getFile = () => fs.readFileSync(ENR_FILE_PATH, encodingOptions)
 
 const build = ({originalFile, replaceValues, originalKey, newValueKey}) => {
   let file = originalFile
