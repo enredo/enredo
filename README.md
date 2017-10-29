@@ -1,5 +1,5 @@
 # enredo (em construção)
-Linguagem de programação procedural em portugues
+Linguagem de programação moderna em portugues, baseada em JS
 
 ### Arquivo com fomato .enr
 ```
