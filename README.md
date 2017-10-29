@@ -29,3 +29,38 @@ Próximos passos:
 - [x] Inciar
 - [ ] Finalizar core  
 - [ ] Criar app em electron simulando IDE 
+
+
+## Exemplos
+
+```
+// ola mundo
+variavel minhaVariavel recebe 'ola mundo'
+
+exibir(minhaVariavel)
+
+
+// lista de compras
+
+variavel minhaListaDeCompras recebe <NovaLista>
+
+variavel primeiroItem recebe 'farinha'
+variavel segundoItem recebe 'bolo'
+variavel terceiroItem recebe 'cerveja'
+
+minhaListaDeCompras.adicionarItem(primeiroItem)
+minhaListaDeCompras.adicionarItem(segundoItem)
+minhaListaDeCompras.adicionarItem(terceiroItem)
+
+exibir(minhaListaDeCompras) // [ 'farinha', 'bolo', 'cerveja' ]
+exibir(minhaListaDeCompras.tamanho) // 3
+
+// somar
+
+variavel preço1 recebe 1.00
+variavel preço2 recebe 2.90
+
+variavel total recebe preço1 mais preço2
+
+exibir(total)
+```
