@@ -13,7 +13,8 @@ const getFile = () => fs.readFileSync('./teste.enr', encodingOptions)
 const build = ({originalFile, replaceValues, originalKey, newValueKey}) => {
   let file = originalFile
   replaceValues.forEach(replaceValue => {
-    file = file.replace(replaceValue[originalKey], replaceValue[newValueKey])
+    const regex = new RegExp(replaceValue[originalKey], 'g')
+    file = file.replace(regex, replaceValue[newValueKey])
   })
   return file
 }
