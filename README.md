@@ -1,5 +1,5 @@
 # enredo (em construção)
-Linguagem de programação procedural em portugues
+Linguagem de programação moderna em portugues, baseada em JS
 
 ### Arquivo com fomato .enr
 ```
@@ -31,11 +31,12 @@ minhaVariavel não foi definido
 
 ## Usando (temporário)
 > git clone https://github.com/eptaccio/enredo.git
-> node index.js <caminho para o arquivo>
+
+> node cli <caminho para o arquivo>
 
 ex:
 
-> node index.js teste.enr
+> node cli teste.enr
 
 ## Exemplos
 
