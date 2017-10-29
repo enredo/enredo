@@ -35,7 +35,7 @@ minhaVariavel não foi definido
 
 ex:
 
-> node index.js teste.enr
+> node cli.js teste.enr
 
 ## Exemplos
 
