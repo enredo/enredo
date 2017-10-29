@@ -31,6 +31,7 @@ minhaVariavel não foi definido
 
 ## Usando (temporário)
 > git clone https://github.com/eptaccio/enredo.git
+
 > node cli <caminho para o arquivo>
 
 ex:
