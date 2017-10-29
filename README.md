@@ -31,11 +31,11 @@ minhaVariavel não foi definido
 
 ## Usando (temporário)
 > git clone https://github.com/eptaccio/enredo.git
-> node index.js <caminho para o arquivo>
+> node cli <caminho para o arquivo>
 
 ex:
 
-> node cli.js teste.enr
+> node cli teste.enr
 
 ## Exemplos
 
