@@ -7,12 +7,28 @@ const values = [{
   enr: 'variavel'
 },
 {
-  js: 'exibir',
-  enr: 'exibir'
-},
-{
   js: '=',
   enr: 'recebe'
+},
+{
+  js: 'return',
+  enr: 'retorne'
+},
+{
+  js: 'length',
+  enr: 'tamanho'
+},
+{
+  js: ' + ',
+  enr: ' mais '
+},
+{
+  js: 'new Array()',
+  enr: '<NovaLista>'
+},
+{
+  js: 'push',
+  enr: 'adicionarItem'
 },
 {
   js: 'console.log',
