@@ -25,7 +25,7 @@ Saída:
 minhaVariavel não foi definido
 ```
 
-Próximos passos:
+### Próximos passos:
 - [x] Inciar
 - [ ] Finalizar core  
 - [ ] Criar app em electron simulando IDE 
@@ -37,7 +37,7 @@ Próximos passos:
 // ola mundo
 variavel minhaVariavel recebe 'ola mundo'
 
-exibir(minhaVariavel)
+exibir(minhaVariavel) // ola mundo
 
 
 // lista de compras
@@ -62,5 +62,5 @@ variavel preço2 recebe 2.90
 
 variavel total recebe preço1 mais preço2
 
-exibir(total)
+exibir(total) // 3.90
 ```
