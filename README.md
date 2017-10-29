@@ -1,7 +1,6 @@
 # enredo (em construção)
 Linguagem de programação procedural em portugues
 
-
 ### Arquivo com fomato .enr
 ```
 variavel minhaVariavel recebe 'ola mundo'
@@ -30,6 +29,13 @@ minhaVariavel não foi definido
 - [ ] Finalizar core  
 - [ ] Criar app em electron simulando IDE 
 
+## Usando (temporário)
+> git clone https://github.com/eptaccio/enredo.git
+> node index.js <caminho para o arquivo>
+
+ex:
+
+> node index.js teste.enr
 
 ## Exemplos
 
