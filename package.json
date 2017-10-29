@@ -1,0 +1,11 @@
+{
+  "name": "enredo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:eptaccio/enredo.git",
+  "author": "eptaccio <eptaccio@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "enredo": "./cli.js"
+  }
+}
