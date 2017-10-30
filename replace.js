@@ -27,6 +27,14 @@ const values = [{
   enr: ' menos '
 },
 {
+  js: ' * ',
+  enr: ' vezes '
+},
+{
+  js: ' / ',
+  enr: ' dividido '
+},
+{
   js: 'new Array()',
   enr: '<NovaLista>'
 },

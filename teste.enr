@@ -26,5 +26,9 @@ variavel preço2 recebe 2.90
 
 variavel total recebe preço1 mais preço2
 variavel sub recebe preço2 menos preço1 // 1.90
+variavel div recebe preço1 dividido preço2
+variavel multi recebe preço1 vezes preço2
 exibir(total) // 3.9
 exibir(sub) // 1.9
+exibir(div)
+exibir(multi)
