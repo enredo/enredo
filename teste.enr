@@ -25,5 +25,6 @@ variavel preço1 recebe 1.00
 variavel preço2 recebe 2.90
 
 variavel total recebe preço1 mais preço2
-
-exibir(total)
+variavel sub recebe preço2 menos preço1 // 1.90
+exibir(total) // 3.9
+exibir(sub) // 1.9

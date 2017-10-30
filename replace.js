@@ -23,6 +23,10 @@ const values = [{
   enr: ' mais '
 },
 {
+  js: ' - ',
+  enr: ' menos '
+},
+{
   js: 'new Array()',
   enr: '<NovaLista>'
 },
