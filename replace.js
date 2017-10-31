@@ -23,6 +23,18 @@ const values = [{
   enr: ' mais '
 },
 {
+  js: ' - ',
+  enr: ' menos '
+},
+{
+  js: ' * ',
+  enr: ' vezes '
+},
+{
+  js: ' / ',
+  enr: ' dividido '
+},
+{
   js: 'new Array()',
   enr: '<NovaLista>'
 },
