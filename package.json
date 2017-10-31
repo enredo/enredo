@@ -2,8 +2,7 @@
   "name": "@enredo/core",
   "version": "1.0.1",
   "main": "index.js",
-  "repository": "git@github.com:eptaccio/enredo.git",
-  "author": "eptaccio <eptaccio@gmail.com>",
+  "repository": "git@github.com:enredo/enredo.git",
   "license": "MIT",
   "bin": {
     "enredo": "cli.js"
