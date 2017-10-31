@@ -1,5 +1,5 @@
 # enredo (em construção)
-Linguagem de programação moderna em portugues, baseada em JS
+Linguagem de programação moderna em português com o objetivo de facilitar o aprendizado de lógica de programação. Baseada em Javascript, feita com 💚
 
 ### Arquivo com fomato .enr
 ```
