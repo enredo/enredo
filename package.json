@@ -6,6 +6,6 @@
   "author": "eptaccio <eptaccio@gmail.com>",
   "license": "MIT",
   "bin": {
-    "enredo": "./cli.js"
+    "enredo": "cli.js"
   }
 }
