@@ -1,15 +1,16 @@
 const fs = require('fs')
 const replaceValues = require('./replace')
 const path = require('path')
-const {execFile} = require('child_process')
 
-const encodingOptions = {
-  encoding: 'utf-8'
+const DEFAULTS = {
+  ENCODING_OPTIONS: {
+    encoding: 'utf-8'
+  },
+  BUILD_PATH: path.join(__dirname, 'build.js')
 }
 
-const BUILD_PATH = path.join(__dirname, 'build.js')
-
-const getFile = ({filePath, encodingOptions}) => fs.readFileSync(filePath, encodingOptions)
+const getFile = ({filePath, encodingOptions = DEFAULTS.ENCODING_OPTIONS} = {}) =>
+  fs.readFileSync(filePath, encodingOptions)
 
 const build = ({originalFile, replaceValues, originalKey, newValueKey}) => {
   let file = originalFile
@@ -22,11 +23,12 @@ const build = ({originalFile, replaceValues, originalKey, newValueKey}) => {
   return file
 }
 
-const write = ({file, buildPath, encodingOptions}) => fs.writeFileSync(buildPath, file, encodingOptions)
+const write = ({file, buildPath = DEFAULTS.BUILD_PATH, encodingOptions = DEFAULTS.ENCODING_OPTIONS} = {}) =>
+  fs.writeFileSync(buildPath, file, encodingOptions)
 
-const buildErrorInEnrSyntax = (error) => {
+const buildEnrFile = (jsFile) => {
   return build({
-    originalFile: error.stack,
+    originalFile: jsFile,
     replaceValues,
     originalKey: 'js',
     newValueKey: 'enr'
@@ -42,19 +44,10 @@ const buildJsFile = (enrFile) => {
   })
 }
 
-const execute = ({enrFilePath}, done) => {
-  const enrFile = getFile({filePath: enrFilePath, encodingOptions})
-
-  const jsFile = buildJsFile(enrFile)
-
-  write({file: jsFile, buildPath: BUILD_PATH, encodingOptions})
-
-  execFile('node', [BUILD_PATH], (error, stdout, stderr) => {
-    if (error) return done(buildErrorInEnrSyntax(error))
-    done(null, stdout)
-  })
-}
-
 module.exports = {
-  execute
+  buildJsFile,
+  write,
+  getFile,
+  DEFAULTS,
+  buildEnrFile
 }
