@@ -1,7 +1,7 @@
 // ola mundo
 variavel minhaVariavel recebe 'ola mundo'
 
-exibire(minhaVariavel)
+exibir(minhaVariavel)
 
 
 // lista de compras
