@@ -17,3 +17,7 @@ minhaListaDeCompras.adicionarItem(terceiroItem)
 
 exibir(minhaListaDeCompras) // [ 'farinha', 'bolo', 'cerveja' ]
 exibir(minhaListaDeCompras.tamanho) // 3
+
+// entrada
+variavel entradaDeValor recebe entrada('Qual seu nome? ')
+exibir(entradaDeValor)
