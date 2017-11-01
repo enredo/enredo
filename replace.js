@@ -19,22 +19,6 @@ const values = [{
   enr: 'tamanho'
 },
 {
-  js: ' + ',
-  enr: ' mais '
-},
-{
-  js: ' - ',
-  enr: ' menos '
-},
-{
-  js: ' * ',
-  enr: ' vezes '
-},
-{
-  js: ' / ',
-  enr: ' dividido '
-},
-{
   js: 'new Array()',
   enr: '<NovaLista>'
 },
@@ -57,6 +41,10 @@ const values = [{
 {
   js: 'is not defined',
   enr: 'não foi definido'
+},
+{
+  js: 'is not a',
+  enr: 'não é uma'
 }]
 
 module.exports = values
