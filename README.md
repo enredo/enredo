@@ -57,13 +57,4 @@ minhaListaDeCompras.adicionarItem(terceiroItem)
 
 exibir(minhaListaDeCompras) // [ 'farinha', 'bolo', 'cerveja' ]
 exibir(minhaListaDeCompras.tamanho) // 3
-
-// somar
-
-variavel preço1 recebe 1.00
-variavel preço2 recebe 2.90
-
-variavel total recebe preço1 mais preço2
-
-exibir(total) // 3.90
 ```

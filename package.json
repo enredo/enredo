@@ -1,6 +1,6 @@
 {
   "name": "enredo",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "repository": "git@github.com:enredo/enredo.git",
   "license": "MIT",

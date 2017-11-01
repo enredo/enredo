@@ -1,8 +1,7 @@
 // ola mundo
 variavel minhaVariavel recebe 'ola mundo'
 
-exibire(minhaVariavel)
-
+exibir(minhaVariavel)
 
 // lista de compras
 
@@ -18,17 +17,3 @@ minhaListaDeCompras.adicionarItem(terceiroItem)
 
 exibir(minhaListaDeCompras) // [ 'farinha', 'bolo', 'cerveja' ]
 exibir(minhaListaDeCompras.tamanho) // 3
-
-// somar
-
-variavel preço1 recebe 1.00
-variavel preço2 recebe 2.90
-
-variavel total recebe preço1 + preço2
-variavel sub recebe preço2 - preço1 // 1.90
-variavel div recebe preço1 / preço2
-variavel multi recebe preço1 * preço2
-exibir(total) // 3.9
-exibir(sub) // 1.9
-exibir(div)
-exibir(multi)
