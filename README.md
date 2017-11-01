@@ -29,14 +29,10 @@ minhaVariavel não foi definido
 - [ ] Finalizar core  
 - [ ] Criar app em electron simulando IDE 
 
-## Usando (temporário)
-> git clone https://github.com/eptaccio/enredo.git
+## Usando
+> npm i -g enredo  
+> enredo nomedoarquivo.enr  
 
-> node cli <caminho para o arquivo>
-
-ex:
-
-> node cli teste.enr
 
 ## Exemplos
 
