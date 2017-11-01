@@ -4,9 +4,14 @@ const bin = require('./index')
 
 const ENR_FILE_PATH = process.argv[2]
 
-bin.execute({enrFilePath: ENR_FILE_PATH}, (error, result) => {
-  if (error) {
-    return console.error(error)
-  }
-  console.log(result)
-})
+const enrFile = bin.getFile({filePath: ENR_FILE_PATH})
+
+const file = bin.buildJsFile(enrFile)
+
+bin.write({file})
+
+try {
+  require(bin.DEFAULTS.BUILD_PATH)
+} catch (error) {
+  console.error(bin.buildEnrFile(error.stack))
+}
