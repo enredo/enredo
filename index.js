@@ -26,7 +26,7 @@ const build = ({originalFile, replaceValues, originalKey, newValueKey}) => {
 const write = ({file, buildPath = DEFAULTS.BUILD_PATH, encodingOptions = DEFAULTS.ENCODING_OPTIONS} = {}) =>
   fs.writeFileSync(buildPath, file, encodingOptions)
 
-const buildEnrFile = (jsFile) => {
+const buildEnrFile = ({jsFile, customReplaceValues = []} = {}) => {
   return build({
     originalFile: jsFile,
     replaceValues,
@@ -35,10 +35,10 @@ const buildEnrFile = (jsFile) => {
   })
 }
 
-const buildJsFile = (enrFile) => {
+const buildJsFile = ({enrFile, customReplaceValues = []} = {}) => {
   return build({
     originalFile: enrFile,
-    replaceValues,
+    replaceValues: [...replaceValues, ...customReplaceValues],
     originalKey: 'enr',
     newValueKey: 'js'
   })
