@@ -73,7 +73,7 @@ se (condicao) {
   variavel numero <- 2
   variavel diaBonito <- verdadeiro
 
-  se (numero igual 2 ou diaBonito iqual verdadeiro) {
+  se (numero igual 2 ou diaBonito igual verdadeiro) {
     exibir('Wow')
   }
   ```
