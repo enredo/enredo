@@ -1,9 +1,6 @@
 # enredo (em construção)
 Linguagem de programação moderna em português com o objetivo de facilitar o aprendizado de lógica de programação. Baseada em Javascript, feita com 💚
 
-# enredo (em construção)
-Linguagem de programação moderna em português com o objetivo de facilitar o aprendizado de lógica de programação. Baseada em Javascript, feita com 💚
-
 ## Instalação
 >$ npm i -g enredo  
 >$ enredo nomedoarquivo.enr  
@@ -44,7 +41,8 @@ se (condicao) {
 ```
 
 ### Operadores lógicos
-* `maior`  
+* `maior`
+
   ```javascript
   variavel numero <- 2
   
@@ -52,7 +50,8 @@ se (condicao) {
     exibir('O numero é maior que 1')
   }
   ```
-* `igual`  
+* `igual`
+
   ```javascript
   variavel numero <- 2
   
@@ -60,7 +59,8 @@ se (condicao) {
     exibir('O numero é igual á 2')
   }
   ```
-* `menor`  
+* `menor`
+
   ```javascript
   variavel numero <- 2
   
@@ -68,7 +68,8 @@ se (condicao) {
     exibir('O numero é menor que 3')
   }
   ```
-* `ou`  
+* `ou`
+
   ```javascript
   variavel numero <- 2
   variavel diaBonito <- verdadeiro
