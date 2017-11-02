@@ -8,7 +8,35 @@ const values = [{
 },
 {
   js: '=',
-  enr: 'recebe'
+  enr: '<-'
+},
+{
+  js: ' == ',
+  enr: ' igual '
+},
+{
+  js: ' > ',
+  enr: ' maior '
+},
+{
+  js: ' || ',
+  enr: ' ou '
+},
+{
+  js: ' < ',
+  enr: ' menor '
+},
+{
+  js: ' && ',
+  enr: ' e '
+},
+{
+  js: 'if',
+  enr: 'se'
+},
+{
+  js: 'else',
+  enr: 'entao'
 },
 {
   js: 'return',
@@ -31,8 +59,24 @@ const values = [{
   enr: 'exibir'
 },
 {
+  js: 'for',
+  enr: 'para'
+},
+{
+  js: 'forEach',
+  enr: 'paraCadaItem'
+},
+{
+  js: 'while',
+  enr: 'enquanto'
+},
+{
+  js: 'do',
+  enr: 'faca'
+},
+{
   js: 'Unexpected identifier',
-  enr: 'Ops, não identifiquei esse caracter'
+  enr: 'Ops, identificador não esperado'
 },
 {
   js: 'Unexpected token',
