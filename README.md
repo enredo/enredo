@@ -1,60 +1,94 @@
 # enredo (em construção)
 Linguagem de programação moderna em português com o objetivo de facilitar o aprendizado de lógica de programação. Baseada em Javascript, feita com 💚
 
-### Arquivo com fomato .enr
-```
-variavel minhaVariavel recebe 'ola mundo'
+# enredo (em construção)
+Linguagem de programação moderna em português com o objetivo de facilitar o aprendizado de lógica de programação. Baseada em Javascript, feita com 💚
 
-exibir(minhaVariavel)
-```
+## Instalação
+>$ npm i -g enredo  
+>$ enredo nomedoarquivo.enr  
 
-Saída ao executar:
-```
-ola mundo
-```
-
-### Simulando um erro de sintaxe
-```
-variavel OI recebe 'ola mundo'
-
-exibir(minhaVariavel)
-```
-Saída:
-```
-minhaVariavel não foi definido
+### Variaveis
+Sintaxe: `variavel`  
+```javascript
+variavel valor1
+variavel valor2
 ```
 
-### Próximos passos:
-- [x] Inciar
-- [ ] Finalizar core  
-- [ ] Criar app em electron simulando IDE 
-
-## Usando
-> npm i -g enredo  
-> enredo nomedoarquivo.enr  
-
-
-## Exemplos
-
+### Atribuição de valor
+Sintaxe: `<-`  
+```javascript
+variavel nome <- 'João'
 ```
-// ola mundo
-variavel minhaVariavel recebe 'ola mundo'
+### Exibir valor
+Sintaxe: `exibir(valor)`  
+```javascript
+variavel nome <- 'João'
 
-exibir(minhaVariavel) // ola mundo
-
-
-// lista de compras
-
-variavel minhaListaDeCompras recebe <NovaLista>
-
-variavel primeiroItem recebe 'farinha'
-variavel segundoItem recebe 'bolo'
-variavel terceiroItem recebe 'cerveja'
-
-minhaListaDeCompras.adicionarItem(primeiroItem)
-minhaListaDeCompras.adicionarItem(segundoItem)
-minhaListaDeCompras.adicionarItem(terceiroItem)
-
-exibir(minhaListaDeCompras) // [ 'farinha', 'bolo', 'cerveja' ]
-exibir(minhaListaDeCompras.tamanho) // 3
+exibir(nome) // João
 ```
+
+### Condicional
+Sintaxe: 
+```javascript
+se (condição) {
+  ... faça algo
+}
+```
+```javascript
+variavel condicao <- verdadeiro
+
+se (condicao) {
+  exibir('Lindo dia')
+}
+```
+
+### Operadores lógicos
+* `maior`  
+  ```javascript
+  variavel numero <- 2
+  
+  se (numero maior 1) {
+    exibir('O numero é maior que 1')
+  }
+  ```
+* `igual`  
+  ```javascript
+  variavel numero <- 2
+  
+  se (numero igual 2) {
+    exibir('O numero é igual á 2')
+  }
+  ```
+* `menor`  
+  ```javascript
+  variavel numero <- 2
+  
+  se (numero menor 3) {
+    exibir('O numero é menor que 3')
+  }
+  ```
+* `ou`  
+  ```javascript
+  variavel numero <- 2
+  variavel diaBonito <- verdadeiro
+
+  se (numero igual 2 ou diaBonito iqual verdadeiro) {
+    exibir('Wow')
+  }
+  ```
+
+### Lista
+Sintaxe: `<NovaLista>`  
+```javascript
+variavel listaDeCompras <- <NovaLista>
+```
+  * `adicionarItem`
+  ```javascript
+    listaDeCompras.adicionarItem('batata')
+    listaDeCompras.adicionarItem('farinha')
+  ```
+  * `tamanho`
+  ```javascript
+    listaDeCompras.tamanho // 2
+  ```
