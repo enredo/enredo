@@ -1,5 +1,10 @@
-# enredo (em construção)
-Linguagem de programação moderna em português com o objetivo de facilitar o aprendizado de lógica de programação. Baseada em Javascript, feita com 💚
+<p align="center">
+  <img src="enr.png" />
+</p>
+
+# enredo
+
+**Em construção**. Linguagem de programação moderna em português com o objetivo de facilitar o aprendizado de lógica de programação. Baseada em Javascript, feita com 💚
 
 ## Instalação
 >$ npm i -g enredo  
