@@ -4,7 +4,7 @@ const values = [{
 },
 {
   js: 'var',
-  enr: 'variavel'
+  enr: 'vale'
 },
 {
   js: '=',
