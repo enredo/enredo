@@ -20,12 +20,12 @@ variavel valor2
 ### Atribuição de valor
 Sintaxe: `<-`  
 ```javascript
-variavel nome <- 'João'
+variavel nome 'João'
 ```
 ### Exibir valor
 Sintaxe: `exibir(valor)`  
 ```javascript
-variavel nome <- 'João'
+variavel nome  'João'
 
 exibir(nome) // João
 ```
