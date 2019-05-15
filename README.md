@@ -20,12 +20,12 @@ seja:_ valor2
 ### Atribuição de valor
 Sintaxe: `espaço em branco`  
 ```javascript
-seja:_ nome 'João'
+definir_: nome 'João'
 ```
 ### Exibir valor
 Sintaxe: `exibir(valor)`  
 ```javascript
-seja:_ nome 'João'
+definir_: nome 'João'
 
 exibir(nome) // João
 ```
@@ -38,7 +38,7 @@ se (assim) {
 }
 ```
 ```javascript
-seja:_ condicao  verdadeiro
+definir_: condicao  verdadeiro
 
 se (assim) {
   exibir('Lindo dia')
@@ -49,7 +49,7 @@ se (assim) {
 * `maior`
 
   ```javascript
-  seja:_ numero 2
+  definir numero 2
   
   se (numero maior 1) {
     exibir('O numero é maior que 1')
@@ -58,7 +58,7 @@ se (assim) {
 * `igual`
 
   ```javascript
-  seja:_ numero 2
+  definir_: numero 2
   
   se (numero igual 2) {
     exibir('O numero é igual á 2')
@@ -67,17 +67,18 @@ se (assim) {
 * `menor`
 
   ```javascript
-  seja:_ numero 2
+  definir_: numero 2
   
   se (numero menor 3) {
     exibir('O numero é menor que 3')
   }
   ```
-* `ou`
+
+*`ou`**
 
   ```javascript
-  seja:_ numero 2
-  seja:_ diaBonito verdadeiro
+  definir_: numero 2
+  definir_: diaBonito verdadeiro
 
   se (numero igual 2 ou diaBonito igual verdadeiro) {
     exibir('Wow')
@@ -87,7 +88,7 @@ se (assim) {
 ### Lista
 Sintaxe: `novaLista`  
 ```javascript
-seja:_ listaDeCompras  _novaLista
+definir_: listaDeCompras  .novaLista
 ```
   * `adicionarItem`
   ```javascript
