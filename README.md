@@ -33,14 +33,14 @@ exibir(nome) // João
 ### Condicional
 Sintaxe: 
 ```javascript
-se (condição) {
+se (assim) {
   ... faça algo
 }
 ```
 ```javascript
 seja:_ condicao  verdadeiro
 
-se (condicao) {
+se (assim) {
   exibir('Lindo dia')
 }
 ```
