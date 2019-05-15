@@ -11,7 +11,7 @@
 >$ enredo nomedoarquivo.enr  
 
 ### Variaveis
-Sintaxe: `seja`  
+Sintaxe: `definir_:`  
 ```javascript
 definir_: valor1
 definir_: valor2
