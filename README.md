@@ -13,19 +13,19 @@
 ### Variaveis
 Sintaxe: `variavel`  
 ```javascript
-variavel valor1
-variavel valor2
+seja valor1
+seja valor2
 ```
 
 ### Atribuição de valor
 Sintaxe: `<-`  
 ```javascript
-variavel nome <- 'João'
+seja nome 'João'
 ```
 ### Exibir valor
 Sintaxe: `exibir(valor)`  
 ```javascript
-variavel nome <- 'João'
+seja nome 'João'
 
 exibir(nome) // João
 ```
@@ -38,7 +38,7 @@ se (condição) {
 }
 ```
 ```javascript
-variavel condicao <- verdadeiro
+seja condicao  verdadeiro
 
 se (condicao) {
   exibir('Lindo dia')
@@ -49,7 +49,7 @@ se (condicao) {
 * `maior`
 
   ```javascript
-  variavel numero <- 2
+  seja numero <- 2
   
   se (numero maior 1) {
     exibir('O numero é maior que 1')
@@ -58,7 +58,7 @@ se (condicao) {
 * `igual`
 
   ```javascript
-  variavel numero <- 2
+  seja numero <- 2
   
   se (numero igual 2) {
     exibir('O numero é igual á 2')
@@ -67,7 +67,7 @@ se (condicao) {
 * `menor`
 
   ```javascript
-  variavel numero <- 2
+  seja numero <- 2
   
   se (numero menor 3) {
     exibir('O numero é menor que 3')
@@ -76,8 +76,8 @@ se (condicao) {
 * `ou`
 
   ```javascript
-  variavel numero <- 2
-  variavel diaBonito <- verdadeiro
+  seja numero <- 2
+  seja diaBonito <- verdadeiro
 
   se (numero igual 2 ou diaBonito igual verdadeiro) {
     exibir('Wow')
@@ -87,7 +87,7 @@ se (condicao) {
 ### Lista
 Sintaxe: `<NovaLista>`  
 ```javascript
-variavel listaDeCompras <- <NovaLista>
+seja listaDeCompras  <NovaLista>
 ```
   * `adicionarItem`
   ```javascript
