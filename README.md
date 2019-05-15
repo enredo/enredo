@@ -18,7 +18,7 @@ seja valor2
 ```
 
 ### Atribuição de valor
-Sintaxe: `<-`  
+Sintaxe: `espaço em branco`  
 ```javascript
 seja nome 'João'
 ```
