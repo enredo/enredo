@@ -64,7 +64,7 @@ const values = [{
 },
 {
   js: 'forEach',
-  enr: 'paraCadaItem'
+  enr: 'paraCada'
 },
 {
   js: 'while',
