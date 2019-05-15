@@ -4,11 +4,11 @@ const values = [{
 },
 {
   js: 'var',
-  enr: 'vale'
+  enr: 'seja'
 },
 {
   js: '=',
-  enr: '<-'
+  enr: ' '
 },
 {
   js: ' == ',
