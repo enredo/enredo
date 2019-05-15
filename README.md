@@ -10,20 +10,26 @@
 >$ npm i -g enredo  
 >$ enredo nomedoarquivo.enr  
 
-### Variaveis
+### Variáveis
+
 Sintaxe: `definir_:`  
+
 ```javascript
 definir_: valor1
 definir_: valor2
 ```
 
 ### Atribuição de valor
+
 Sintaxe: `espaço em branco`  
+
 ```javascript
 definir_: nome 'João'
 ```
 ### Exibir valor
+
 Sintaxe: `exibir(valor)`  
+
 ```javascript
 definir_: nome 'João'
 
@@ -31,12 +37,17 @@ exibir(nome) // João
 ```
 
 ### Condicional
+
 Sintaxe: 
+
 ```javascript
 se (assim) {
   ... faça algo
 }
 ```
+
+#
+
 ```javascript
 definir_: condicao  verdadeiro
 
