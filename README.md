@@ -49,7 +49,7 @@ se (assim) {
 * `maior`
 
   ```javascript
-  definir numero 2
+  definir_: numero 2
   
   se (numero maior 1) {
     exibir('O numero é maior que 1')
