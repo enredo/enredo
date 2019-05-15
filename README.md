@@ -49,7 +49,7 @@ se (condicao) {
 * `maior`
 
   ```javascript
-  seja numero 2
+  seja:_ numero 2
   
   se (numero maior 1) {
     exibir('O numero é maior que 1')
