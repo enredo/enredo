@@ -8,7 +8,7 @@ const values = [{
 },
 {
   js: '=',
-  enr: '<-'
+  enr: ' '
 },
 {
   js: ' == ',
