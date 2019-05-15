@@ -13,8 +13,8 @@
 ### Variaveis
 Sintaxe: `seja`  
 ```javascript
-seja:_ valor1
-seja:_ valor2
+definir_: valor1
+definir_: valor2
 ```
 
 ### Atribuição de valor
