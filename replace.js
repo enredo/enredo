@@ -1,14 +1,14 @@
 const values = [{
   js: 'function',
-  enr: 'funcao'
+  enr: 'cargo'
 },
 {
   js: 'var',
-  enr: 'variavel'
+  enr: 'definir_:'
 },
 {
   js: '=',
-  enr: '<-'
+  enr: ' '
 },
 {
   js: ' == ',
@@ -48,7 +48,7 @@ const values = [{
 },
 {
   js: 'new Array()',
-  enr: '<NovaLista>'
+  enr: '.novaLista'
 },
 {
   js: 'push',
@@ -64,7 +64,7 @@ const values = [{
 },
 {
   js: 'forEach',
-  enr: 'paraCadaItem'
+  enr: 'paraCada'
 },
 {
   js: 'while',
