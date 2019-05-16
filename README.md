@@ -10,6 +10,16 @@
 >$ npm i -g enredo  
 >$ enredo nomedoarquivo.enr  
 
+### Função
+Sintaxe: `cargo`  
+```javascript
+
+cargo(test...){
+
+}
+```
+
+
 ### Variaveis
 Sintaxe: `variavel`  
 ```javascript
