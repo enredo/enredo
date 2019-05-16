@@ -1,10 +1,10 @@
 const values = [{
   js: 'function',
-  enr: 'funcao'
+  enr: 'cargo'
 },
 {
   js: 'var',
-  enr: 'variavel'
+  enr: 'definir_:'
 },
 {
   js: '=',
@@ -48,7 +48,7 @@ const values = [{
 },
 {
   js: 'new Array()',
-  enr: '<NovaLista>'
+  enr: '.novaLista'
 },
 {
   js: 'push',
