@@ -21,21 +21,21 @@ cargo(test...){
 
 
 ### Variaveis
-Sintaxe: `variavel`  
+Sintaxe: `definir_:`  
 ```javascript
-variavel valor1
-variavel valor2
+definir_: valor1
+definir_: valor2
 ```
 
 ### Atribuição de valor
 Sintaxe: `<-`  
 ```javascript
-variavel nome <- 'João'
+definir_: nome <- 'João'
 ```
 ### Exibir valor
 Sintaxe: `exibir(valor)`  
 ```javascript
-variavel nome <- 'João'
+definir_: nome  'João'
 
 exibir(nome) // João
 ```
@@ -48,7 +48,7 @@ se (condição) {
 }
 ```
 ```javascript
-variavel condicao <- verdadeiro
+definir_: condicao  verdadeiro
 
 se (condicao) {
   exibir('Lindo dia')
@@ -59,7 +59,7 @@ se (condicao) {
 * `maior`
 
   ```javascript
-  variavel numero <- 2
+  definir_: numero  2
   
   se (numero maior 1) {
     exibir('O numero é maior que 1')
@@ -68,7 +68,7 @@ se (condicao) {
 * `igual`
 
   ```javascript
-  variavel numero <- 2
+  definir_: numero  2
   
   se (numero igual 2) {
     exibir('O numero é igual á 2')
@@ -77,7 +77,7 @@ se (condicao) {
 * `menor`
 
   ```javascript
-  variavel numero <- 2
+  definir_: numero  2
   
   se (numero menor 3) {
     exibir('O numero é menor que 3')
@@ -86,8 +86,8 @@ se (condicao) {
 * `ou`
 
   ```javascript
-  variavel numero <- 2
-  variavel diaBonito <- verdadeiro
+  definir_: numero  2
+  definir_: diaBonito  verdadeiro
 
   se (numero igual 2 ou diaBonito igual verdadeiro) {
     exibir('Wow')
@@ -97,7 +97,7 @@ se (condicao) {
 ### Lista
 Sintaxe: `<NovaLista>`  
 ```javascript
-variavel listaDeCompras <- <NovaLista>
+definir_: listaDeCompras  .novaLista
 ```
   * `adicionarItem`
   ```javascript
