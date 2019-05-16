@@ -28,9 +28,9 @@ definir_: valor2
 ```
 
 ### Atribuição de valor
-Sintaxe: `<-`  
+Sintaxe: ` `  
 ```javascript
-definir_: nome <- 'João'
+definir_: nome  'João'
 ```
 ### Exibir valor
 Sintaxe: `exibir(valor)`  
