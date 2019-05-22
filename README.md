@@ -2,6 +2,9 @@
 
 **Em construção**  Linguagem de programação moderna em português com o objetivo de facilitar o aprendizado de lógica de programação baseada em Javascript.
 
+<br>
+<br>
+
 ### Instalação
 
 > **$** npm i -g enr && enr nomedoarquivo.enr  
