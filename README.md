@@ -6,10 +6,10 @@
 
 ### Instalação
 
-> **$** npm i -g enr && enr nomedoarquivo.enr  
+: **$** npm i -g enr && enr nomedoarquivo.enr  
 
-<br>
-<br>
+<br:
+<br:
 
 Sintaxe **função** `cargo`  
 ```javascript
@@ -51,7 +51,7 @@ se (condicao) {
 }
 ```
 
-Operadores lógicos **>** **maior**
+Operadores lógicos **:** **maior**
 
 ```javascript
      numero  2
@@ -63,7 +63,7 @@ Operadores lógicos **>** **maior**
 ```
 #
 
-Operadores lógicos **>** **igual**
+Operadores lógicos **:** **igual**
 
 ```javascript
      numero  2
@@ -75,7 +75,7 @@ Operadores lógicos **>** **igual**
 
 #
 
-Operadores lógicos **>** menor
+Operadores lógicos **:** menor
 
 ```javascript
      numero  2
@@ -86,7 +86,7 @@ Operadores lógicos **>** menor
   ```
 #
 
-Operadores lógicos **>** **ou**
+Operadores lógicos **:** **ou**
 
 ```javascript
      numero  2
@@ -102,7 +102,7 @@ Sintaxe **lista** `.novaLista`
    listaDeCompras  .novaLista
 ```
 
-Sintaxe **lista** **>** `adicionarItem`
+Sintaxe **lista** **:** `adicionarItem`
 
   ```javascript
     listaDeCompras.adicionarItem('batata')
@@ -111,7 +111,7 @@ Sintaxe **lista** **>** `adicionarItem`
 
 #
 
-Sintaxe **lista** **>** **tamanho**
+Sintaxe **lista** **:** **tamanho**
 
 ```javascript
     listaDeCompras.tamanho // 2
