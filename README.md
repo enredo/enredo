@@ -16,7 +16,7 @@ cargo(test...){
 ```
 
 ### Variáveis
-Sintaxe: `definir_:`  
+Sintaxe: `  `  
 ```javascript
   valor1
   valor2
@@ -51,10 +51,9 @@ se (condicao) {
 ```
 
 ### Operadores lógicos
+maior
 
-`maior`
-
-  ```javascript
+```javascript
      numero  2
   
   se (numero maior 1) {
@@ -64,9 +63,9 @@ se (condicao) {
 ```
 #
 
-`igual`
+igual
 
-  ```javascript
+```javascript
      numero  2
   
   se (numero igual 2) {
@@ -76,9 +75,9 @@ se (condicao) {
 
 #
 
-`menor`
+menor
 
-  ```javascript
+```javascript
      numero  2
   
   se (numero menor 3) {
@@ -87,9 +86,9 @@ se (condicao) {
   ```
 #
 
-`ou`
+ou
 
-  ```javascript
+```javascript
      numero  2
      diaBonito  verdadeiro
 
@@ -104,7 +103,8 @@ Sintaxe: `.novaLista`
    listaDeCompras  .novaLista
 ```
 
-`adicionarItem`
+adicionarItem
+
   ```javascript
     listaDeCompras.adicionarItem('batata')
     listaDeCompras.adicionarItem('farinha')
@@ -112,7 +112,8 @@ Sintaxe: `.novaLista`
 
 #
 
-`tamanho`
-  ```javascript
+tamanho
+
+```javascript
     listaDeCompras.tamanho // 2
   ```
