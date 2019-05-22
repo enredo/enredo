@@ -46,7 +46,7 @@ se (condicao) {
 }
 ```
 
-Operadores lógicos> maior
+Operadores lógicos > maior
 
 ```javascript
      numero  2
