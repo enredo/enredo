@@ -31,28 +31,28 @@ _syntax **exibir valor** `exibir(valor)`
 exibir(nome) // João
 ```
 
-_syntax **condição**  sobre a verdade... `verdadeiro` , sobre a mentira... `falso`
+_syntax **condição** `verdadeiro, verdade` ...  `falso, mentira`
 ```javascript
-se (verdadeiro) {
+caso (verdade) {
   ... faça algo
 }
 ```
 ```javascript
-se (falso) {
+caso (falso) {
   ... faça algo
 }
 ```
 ```javascript
-   sobre a  verdade
+   caso verdade
 
-se (verdade) {
+caso (verdade) {
   exibir('Lindo dia')
 }
 ```
 ```javascript
-   sobre o falso
+   caso falso
 
-se (falso) {
+caso (falso) {
   exibir('Lindo dia')
 }
 ```
@@ -62,7 +62,7 @@ _syntax **condição** **:** **operadores lógicos** **:** `maior`
 ```javascript
      numero  2
   
-  se (numero maior 1) {
+  caso (numero maior 1) {
     exibir('O numero é maior que 1')
   }
 
@@ -74,7 +74,7 @@ _syntax **condição** **:** **operadores lógicos** **:** `igual`
 ```javascript
      numero  2
   
-  se (numero igual 2) {
+  caso (numero igual 2) {
     exibir('O numero é igual á 2')
   }
 ```
@@ -86,7 +86,7 @@ _syntax **condição** **:** **operadores lógicos** **:** `menor`
 ```javascript
      numero  2
   
-  se (numero menor 3) {
+  caso (numero menor 3) {
     exibir('O numero é menor que 3')
   }
   ```
