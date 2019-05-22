@@ -17,7 +17,7 @@ cargo(test...){
 
 _syntax **variáveis** **`ws`**  
 ```javascript
-  valor1
+  valor1 , valor2, valor3 ... 
   valor2
 ```
 
