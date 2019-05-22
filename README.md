@@ -39,7 +39,7 @@ exibir(nome) // João
 
 <br>
 
-_syntax **condição**  ...  **`verdadeiro, verdade`** 
+_syntax **condição** ...  **`verdadeiro, verdade`** 
 ```javascript
 caso (verdade) {
   ... faça algo
@@ -48,7 +48,7 @@ caso (verdade) {
 
 <br>
 
-_syntax **condição**  ...  **`falso, mentira`**
+_syntax **condição** ...  **`falso, mentira`**
 ```javascript
 caso (falso) {
   ... faça algo
@@ -56,11 +56,12 @@ caso (falso) {
 ```
 
 <br>
-_syntax **condição**  ...  **`verdadeiro, verdade`** 
+
+_syntax **condição** ... **`verdadeiro, verdade`** 
 
 ```javascript
    caso verdade
-
+   
 caso (verdade) {
   exibir('Lindo dia')
 }
@@ -68,7 +69,7 @@ caso (verdade) {
 
 <br>
 
-_syntax **condição**  ...  **`falso, mentira`**
+_syntax **condição** ...  **`falso, mentira`**
 
 ```javascript
    caso falso
