@@ -13,16 +13,22 @@ cargo(test...){
 }
 ```
 
+<br>
+
 _syntax **variáveis** **`ws`**  
 ```javascript
   valor1
   valor2
 ```
 
+<br>
+
 _syntax **atribuição de valor** **`ws`**  
 ```javascript
   nome  'João'
 ```
+
+<br>
 
 _syntax **exibir valor** **`exibir(valor)`**   
 ```javascript
@@ -31,17 +37,27 @@ _syntax **exibir valor** **`exibir(valor)`**
 exibir(nome) // João
 ```
 
-_syntax **condição** **`verdadeiro, verdade`**  ...  **`falso, mentira`**
+<br>
+
+_syntax **condição**  ...  **`verdadeiro, verdade`** 
 ```javascript
 caso (verdade) {
   ... faça algo
 }
 ```
+
+<br>
+
+_syntax **condição**  ...  **`falso, mentira`**
 ```javascript
 caso (falso) {
   ... faça algo
 }
 ```
+
+<br>
+_syntax **condição**  ...  **`verdadeiro, verdade`** 
+
 ```javascript
    caso verdade
 
@@ -49,6 +65,11 @@ caso (verdade) {
   exibir('Lindo dia')
 }
 ```
+
+<br>
+
+_syntax **condição**  ...  **`falso, mentira`**
+
 ```javascript
    caso falso
 
@@ -56,6 +77,8 @@ caso (falso) {
   exibir('Lindo dia')
 }
 ```
+
+<br>
 
 _syntax **condição** **:** **operadores lógicos** **:** **`maior`**
 
@@ -103,10 +126,14 @@ _syntax **condição** **:** **operadores lógicos** **:** **`ou`**
   }
   ```
 
+<br>
+
 _syntax **lista** **`.listaNova`**  
 ```javascript
    listaDeCompras  .listaNova
 ```
+
+<br>
 
 _syntax **lista** **:** **`Item`**
 
