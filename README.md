@@ -18,19 +18,19 @@ cargo(test...){
 ### Variáveis
 Sintaxe: `definir_:`  
 ```javascript
-definir_: valor1
-definir_: valor2
+  valor1
+  valor2
 ```
 
 ### Atribuição de valor
 Sintaxe: ` `  
 ```javascript
-definir_: nome  'João'
+  nome  'João'
 ```
 ### Exibir valor
 Sintaxe: `exibir(valor)`  
 ```javascript
-definir_: nome  'João'
+   nome  'João'
 
 exibir(nome) // João
 ```
@@ -43,7 +43,7 @@ se (condição) {
 }
 ```
 ```javascript
-definir_: condicao  verdadeiro
+   condicao  verdadeiro
 
 se (condicao) {
   exibir('Lindo dia')
@@ -55,7 +55,7 @@ se (condicao) {
 `maior`
 
   ```javascript
-  definir_: numero  2
+     numero  2
   
   se (numero maior 1) {
     exibir('O numero é maior que 1')
@@ -67,7 +67,7 @@ se (condicao) {
 `igual`
 
   ```javascript
-  definir_: numero  2
+     numero  2
   
   se (numero igual 2) {
     exibir('O numero é igual á 2')
@@ -79,7 +79,7 @@ se (condicao) {
 `menor`
 
   ```javascript
-  definir_: numero  2
+     numero  2
   
   se (numero menor 3) {
     exibir('O numero é menor que 3')
@@ -90,8 +90,8 @@ se (condicao) {
 `ou`
 
   ```javascript
-  definir_: numero  2
-  definir_: diaBonito  verdadeiro
+     numero  2
+     diaBonito  verdadeiro
 
   se (numero igual 2 ou diaBonito igual verdadeiro) {
     exibir('Wow')
@@ -101,7 +101,7 @@ se (condicao) {
 ### Lista
 Sintaxe: `.novaLista`  
 ```javascript
-definir_: listaDeCompras  .novaLista
+   listaDeCompras  .novaLista
 ```
 
 `adicionarItem`
