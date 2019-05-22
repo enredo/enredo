@@ -8,20 +8,29 @@
 
 _syntax **função** **`cargo`**  
 ```javascript
+:----------------------------------------
+: syntax 'função' is 'cargo'
+:-----------------------------------------
 
 cargo(test...){
-
+  ... **função** **`cargo`**  
 }
 ```
 
 _syntax **variáveis** **`ws`**  
 ```javascript
+:----------------------------------------
+: syntax 'função' is 'cargo'
+:-----------------------------------------
   valor1
   valor2
 ```
 
 _syntax **atribuição de valor** **`ws`**  
 ```javascript
+:----------------------------------------
+: syntax 'função' is 'cargo'
+:-----------------------------------------
   nome  'João'
 ```
 
