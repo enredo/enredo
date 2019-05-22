@@ -97,12 +97,16 @@ Sintaxe: `<NovaLista>`
 ```javascript
 definir_: listaDeCompras  .novaLista
 ```
-  * `adicionarItem`
+
+`adicionarItem`
   ```javascript
     listaDeCompras.adicionarItem('batata')
     listaDeCompras.adicionarItem('farinha')
   ```
-  * `tamanho`
+
+#
+
+`tamanho`
   ```javascript
     listaDeCompras.tamanho // 2
   ```
