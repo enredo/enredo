@@ -117,7 +117,7 @@ _syntax **lista** **:** `Item`
 
 #
 
-_syntax **lista** **:** `**quantidade**`
+_syntax **lista** **:** **`quantidade`**
 
 ```javascript
     listaDeCompras.quantidade // 2
