@@ -6,10 +6,10 @@
 
 ### Instalação
 
-: **$** npm i -g enr && enr nomedoarquivo.enr  
+> : **$** npm i -g enr && enr nomedoarquivo.enr  
 
-<br:
-<br:
+<br>
+<br>
 
 Sintaxe **função** `cargo`  
 ```javascript
