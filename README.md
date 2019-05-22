@@ -14,7 +14,7 @@ cargo(test...){
 }
 ```
 
-Sintaxe variáveis `  `  
+Sintaxe variáveis `ws`  
 ```javascript
   valor1
   valor2
