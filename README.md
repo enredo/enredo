@@ -45,7 +45,7 @@ se (condicao) {
 }
 ```
 
-_syntax **condição** **:** **operadores lógicos** **:** **maior**
+_syntax **condição** **:** **operadores lógicos** **:** `maior`
 
 ```javascript
      numero  2
@@ -57,7 +57,7 @@ _syntax **condição** **:** **operadores lógicos** **:** **maior**
 ```
 #
 
-_syntax **condição** **:** **operadores lógicos** **:** **igual**
+_syntax **condição** **:** **operadores lógicos** **:** `igual`
 
 ```javascript
      numero  2
@@ -69,7 +69,7 @@ _syntax **condição** **:** **operadores lógicos** **:** **igual**
 
 #
 
-_syntax **condição** **:** **operadores lógicos** **:** **menor**
+_syntax **condição** **:** **operadores lógicos** **:** `menor`
 
 ```javascript
      numero  2
@@ -80,7 +80,7 @@ _syntax **condição** **:** **operadores lógicos** **:** **menor**
   ```
 #
 
-_syntax **condição** **:** **operadores lógicos** **:** **ou**
+_syntax **condição** **:** **operadores lógicos** **:** `ou`
 
 ```javascript
      numero  2
