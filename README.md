@@ -17,8 +17,7 @@ cargo(test...){
 }
 ```
 
-
-### Variaveis
+### Variáveis
 Sintaxe: `definir_:`  
 ```javascript
 definir_: valor1
