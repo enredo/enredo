@@ -1,4 +1,5 @@
-## `:x:` enredo 
+#### `:x:` 
+### enredo 
 
 **Em construção**  Linguagem de programação moderna em português com o objetivo de facilitar o aprendizado de lógica de programação baseada em Javascript. **Para instalar** use : ` $ npm i -g enr && enr nomedoarquivo.enr`
 
