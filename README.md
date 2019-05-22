@@ -102,7 +102,7 @@ Sintaxe **lista** `.novaLista`
    listaDeCompras  .novaLista
 ```
 
-Sintaxe **lista** > `adicionarItem`
+Sintaxe **lista** **>** `adicionarItem`
 
   ```javascript
     listaDeCompras.adicionarItem('batata')
@@ -111,7 +111,7 @@ Sintaxe **lista** > `adicionarItem`
 
 #
 
-Sintaxe **lista** **>** tamanho**
+Sintaxe **lista** **>** **tamanho**
 
 ```javascript
     listaDeCompras.tamanho // 2
