@@ -9,7 +9,7 @@
 _syntax **função** **`cargo`**  
 ```javascript
 cargo(test...){
-  ... **função** **`cargo`**  
+  ... função-cargo  
 }
 ```
 
