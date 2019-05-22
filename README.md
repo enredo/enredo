@@ -5,8 +5,7 @@
 ![alt text](https://biscoitofino.com.br/wp-content/uploads/2015/10/Capa-DVD-Martinho-da-Vila-Enredo.jpg "Logo Title Text 1")
 
 ## Instalação
->$ npm i -g enredo  
->$ enredo nomedoarquivo.enr  
+> $ npm i -g enredo && enr nomedoarquivo.enr  
 
 ### Função
 Sintaxe: `cargo`  
