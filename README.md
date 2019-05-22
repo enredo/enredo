@@ -6,7 +6,7 @@
 <br>
 <br>
 
-***_syntax*** **função** **`cargo`**  
+_syntax **função** **`cargo`**  
 ```javascript
 
 cargo(test...){
@@ -14,25 +14,25 @@ cargo(test...){
 }
 ```
 
-`:x:` _syntax **variáveis** **`ws`**  
+_syntax **variáveis** **`ws`**  
 ```javascript
   valor1
   valor2
 ```
 
-`:x:` _syntax **atribuição de valor** **`ws`**  
+_syntax **atribuição de valor** **`ws`**  
 ```javascript
   nome  'João'
 ```
 
-`:x:` _syntax **exibir valor** **`exibir(valor)`**   
+_syntax **exibir valor** **`exibir(valor)`**   
 ```javascript
    nome  'João'
 
 exibir(nome) // João
 ```
 
-`:x:` _syntax **condição** **`verdadeiro, verdade`**  ...  **`falso, mentira`**
+_syntax **condição** **`verdadeiro, verdade`**  ...  **`falso, mentira`**
 ```javascript
 caso (verdade) {
   ... faça algo
@@ -58,7 +58,7 @@ caso (falso) {
 }
 ```
 
-`:x:` _syntax **condição** **:** **operadores lógicos** **:** **`maior`**
+_syntax **condição** **:** **operadores lógicos** **:** **`maior`**
 
 ```javascript
      numero  2
@@ -70,7 +70,7 @@ caso (falso) {
 ```
 #
 
-`:x:` _syntax **condição** **:** **operadores lógicos** **:** **`igual`**
+_syntax **condição** **:** **operadores lógicos** **:** **`igual`**
 
 ```javascript
      numero  2
@@ -82,7 +82,7 @@ caso (falso) {
 
 #
 
-`:x:` _syntax **condição** **:** **operadores lógicos** **:** **`menor`**
+_syntax **condição** **:** **operadores lógicos** **:** **`menor`**
 
 ```javascript
      numero  2
@@ -93,7 +93,7 @@ caso (falso) {
   ```
 #
 
-`:x:` _syntax **condição** **:** **operadores lógicos** **:** **`ou`**
+_syntax **condição** **:** **operadores lógicos** **:** **`ou`**
 
 ```javascript
      numero  2
@@ -104,12 +104,12 @@ caso (falso) {
   }
   ```
 
-`:x:` _syntax **lista** **`.listaNova`**  
+_syntax **lista** **`.listaNova`**  
 ```javascript
    listaDeCompras  .listaNova
 ```
 
-`:x:` _syntax **lista** **:** **`Item`**
+_syntax **lista** **:** **`Item`**
 
   ```javascript
     listaDeCompras.Item('batata')  , ...
@@ -118,7 +118,7 @@ caso (falso) {
 
 #
 
-`:x:` _syntax **lista** **:** **`quantidade`**
+_syntax **lista** **:** **`quantidade`**
 
 ```javascript
     listaDeCompras.quantidade // 2
