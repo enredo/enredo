@@ -6,8 +6,7 @@
 
 > **$** npm i -g enr && enr nomedoarquivo.enr  
 
-### Função
-Sintaxe: `cargo`  
+Sintaxe função `cargo`  
 ```javascript
 
 cargo(test...){
@@ -15,15 +14,13 @@ cargo(test...){
 }
 ```
 
-### Variáveis
-Sintaxe: `  `  
+Sintaxe variáveis `  `  
 ```javascript
   valor1
   valor2
 ```
 
-### Atribuição de valor
-Sintaxe: `ws`  
+Sintaxe atribuição de valor `ws`  
 ```javascript
   nome  'João'
 ```
