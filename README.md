@@ -51,7 +51,7 @@ se (condicao) {
 }
 ```
 
-Operadores lógicos **>** maior
+Operadores lógicos **>** **maior**
 
 ```javascript
      numero  2
@@ -63,7 +63,7 @@ Operadores lógicos **>** maior
 ```
 #
 
-Operadores lógicos **>** igual
+Operadores lógicos **>** **igual**
 
 ```javascript
      numero  2
@@ -86,7 +86,7 @@ Operadores lógicos **>** menor
   ```
 #
 
-Operadores lógicos **>** ou
+Operadores lógicos **>** **ou**
 
 ```javascript
      numero  2
@@ -111,7 +111,7 @@ Sintaxe **lista** > `adicionarItem`
 
 #
 
-Sintaxe **lista** > tamanho
+Sintaxe **lista** **>** tamanho**
 
 ```javascript
     listaDeCompras.tamanho // 2
