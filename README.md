@@ -5,7 +5,7 @@
 <br>
 <br>
 
-Sintaxe **função** `cargo`  
+_syntax **função** `cargo`  
 ```javascript
 
 cargo(test...){
@@ -13,25 +13,25 @@ cargo(test...){
 }
 ```
 
-Sintaxe **variáveis** `ws`  
+_syntax **variáveis** `ws`  
 ```javascript
   valor1
   valor2
 ```
 
-Sintaxe **atribuição de valor** `ws`  
+_syntax **atribuição de valor** `ws`  
 ```javascript
   nome  'João'
 ```
 
-Sintaxe **exibir valor** `exibir(valor)`  
+_syntax **exibir valor** `exibir(valor)`  
 ```javascript
    nome  'João'
 
 exibir(nome) // João
 ```
 
-Sintaxe **condicional**
+_syntax **condição**
 ```javascript
 se (condição) {
   ... faça algo
@@ -45,7 +45,7 @@ se (condicao) {
 }
 ```
 
-Operadores lógicos **:** **maior**
+_syntax **operadores lógicos** **:** **maior**
 
 ```javascript
      numero  2
@@ -57,7 +57,7 @@ Operadores lógicos **:** **maior**
 ```
 #
 
-Operadores lógicos **:** **igual**
+_syntax **operadores lógicos** **:** **igual**
 
 ```javascript
      numero  2
@@ -69,7 +69,7 @@ Operadores lógicos **:** **igual**
 
 #
 
-Operadores lógicos **:** menor
+_syntax **operadores lógicos** **:** **menor**
 
 ```javascript
      numero  2
@@ -80,7 +80,7 @@ Operadores lógicos **:** menor
   ```
 #
 
-Operadores lógicos **:** **ou**
+_syntax **operadores lógicos** **:** **ou**
 
 ```javascript
      numero  2
@@ -91,12 +91,12 @@ Operadores lógicos **:** **ou**
   }
   ```
 
-Sintaxe **lista** `.novaLista`  
+_syntax **lista** `.novaLista`  
 ```javascript
    listaDeCompras  .novaLista
 ```
 
-Sintaxe **lista** **:** `adicionarItem`
+_syntax **lista** **:** `adicionarItem`
 
   ```javascript
     listaDeCompras.adicionarItem('batata')
@@ -105,7 +105,7 @@ Sintaxe **lista** **:** `adicionarItem`
 
 #
 
-Sintaxe **lista** **:** **tamanho**
+_syntax **lista** **:** **tamanho**
 
 ```javascript
     listaDeCompras.tamanho // 2
