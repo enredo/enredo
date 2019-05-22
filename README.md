@@ -5,7 +5,7 @@
 <br>
 <br>
 
-`:x:` _syntax **função** **`cargo`**  
+`:x:_syntax` **função** **`cargo`**  
 ```javascript
 
 cargo(test...){
