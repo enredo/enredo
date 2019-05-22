@@ -1,100 +1,154 @@
-<p align="center">
-  <img src="enr.png" />
-</p>
+#### `§` 
+### enredo 
 
-# enredo
+**Fase beta.**  Linguagem de programação moderna em português com o objetivo de facilitar o aprendizado de lógica de programação baseada em Javascript. **Para instalar** use : ` § npm i -g enr && enr nomedoarquivo.enr`
 
-**Em construção**. Linguagem de programação moderna em português com o objetivo de facilitar o aprendizado de lógica de programação. Baseada em Javascript, feita com 💚
+<br>
+<br>
 
-## Instalação
->$ npm i -g enredo  
->$ enredo nomedoarquivo.enr  
+_syntax **função** **`cargo`**  
 
-### Variaveis
-Sintaxe: `variavel`  
 ```javascript
-variavel valor1
-variavel valor2
+cargo(test...){
+
+  }
 ```
 
-### Atribuição de valor
-Sintaxe: `<-`  
+<br>
+
+_syntax **variáveis** **`ws`**  
 ```javascript
-variavel nome <- 'João'
+  valor1 , valor2, valor3 ... 
+  valor2 ,
+  valor3 ...
 ```
-### Exibir valor
-Sintaxe: `exibir(valor)`  
+
+<br>
+
+_syntax **atribuição de valor** **`ws`**  
 ```javascript
-variavel nome <- 'João'
+  nome  'João'
+```
+
+<br>
+
+_syntax **exibir valor** **`exibir(valor)`**   
+```javascript
+   nome  'João'
 
 exibir(nome) // João
 ```
 
-### Condicional
-Sintaxe: 
+<br>
+
+_syntax **condição** ...  **`verdadeiro, verdade`** 
 ```javascript
-se (condição) {
+caso (verdade) {
   ... faça algo
 }
 ```
-```javascript
-variavel condicao <- verdadeiro
 
-se (condicao) {
+<br>
+
+_syntax **condição** ...  **`falso, mentira`**
+```javascript
+caso (falso) {
+  ... faça algo
+}
+```
+
+<br>
+
+_syntax **condição** ... **`verdadeiro, verdade`** 
+
+```javascript
+   caso verdade
+   
+caso (verdade) {
   exibir('Lindo dia')
 }
 ```
 
-### Operadores lógicos
-* `maior`
+<br>
 
-  ```javascript
-  variavel numero <- 2
+_syntax **condição** ...  **`falso, mentira`**
+
+```javascript
+   caso falso
+
+caso (falso) {
+  exibir('Lindo dia')
+}
+```
+
+<br>
+
+_syntax **condição** **:** **operadores lógicos** **:** **`maior`**
+
+```javascript
+     numero  2
   
-  se (numero maior 1) {
+  caso (numero maior 1) {
     exibir('O numero é maior que 1')
   }
-  ```
-* `igual`
 
-  ```javascript
-  variavel numero <- 2
+```
+#
+
+_syntax **condição** **:** **operadores lógicos** **:** **`igual`**
+
+```javascript
+     numero  2
   
-  se (numero igual 2) {
+  caso (numero igual 2) {
     exibir('O numero é igual á 2')
   }
-  ```
-* `menor`
+```
 
-  ```javascript
-  variavel numero <- 2
+#
+
+_syntax **condição** **:** **operadores lógicos** **:** **`menor`**
+
+```javascript
+     numero  2
   
-  se (numero menor 3) {
+  caso (numero menor 3) {
     exibir('O numero é menor que 3')
   }
   ```
-* `ou`
+#
 
-  ```javascript
-  variavel numero <- 2
-  variavel diaBonito <- verdadeiro
+_syntax **condição** **:** **operadores lógicos** **:** **`ou`**
+
+```javascript
+     numero  2
+     diaBonito  verdadeiro
 
   se (numero igual 2 ou diaBonito igual verdadeiro) {
     exibir('Wow')
   }
   ```
 
-### Lista
-Sintaxe: `<NovaLista>`  
+<br>
+
+_syntax **lista** **`.listaNova`**  
 ```javascript
-variavel listaDeCompras <- <NovaLista>
+   listaDeCompras  .listaNova
 ```
-  * `adicionarItem`
+
+<br>
+
+_syntax **lista** **:** **`Item`**
+
   ```javascript
-    listaDeCompras.adicionarItem('batata')
-    listaDeCompras.adicionarItem('farinha')
+    listaDeCompras.Item('batata')  , ...
+    listaDeCompras.Item('farinha')
   ```
-  * `tamanho`
-  ```javascript
-    listaDeCompras.tamanho // 2
+
+#
+
+_syntax **lista** **:** **`quantidade`**
+
+```javascript
+    listaDeCompras.quantidade // 2
   ```
