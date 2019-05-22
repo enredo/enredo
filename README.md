@@ -7,10 +7,11 @@
 <br>
 
 _syntax **função** **`cargo`**  
+
 ```javascript
 cargo(test...){
-  ... função-cargo  
-}
+
+  }
 ```
 
 <br>
@@ -18,7 +19,8 @@ cargo(test...){
 _syntax **variáveis** **`ws`**  
 ```javascript
   valor1 , valor2, valor3 ... 
-  valor2
+  valor2 ,
+  valor3 ...
 ```
 
 <br>
