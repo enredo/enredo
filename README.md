@@ -1,7 +1,7 @@
-**Em construção**  
 ## enredo 
 
 Linguagem de programação moderna em português com o objetivo de facilitar o aprendizado de lógica de programação baseada em Javascript.
+**Em construção**  
 
 ![alt text](https://biscoitofino.com.br/wp-content/uploads/2015/10/Capa-DVD-Martinho-da-Vila-Enredo.jpg "Logo Title Text 1")
 
