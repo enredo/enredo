@@ -102,7 +102,7 @@ se (condicao) {
   ```
 
 ### Lista
-Sintaxe: `<NovaLista>`  
+Sintaxe: `.novaLista`  
 ```javascript
 definir_: listaDeCompras  .novaLista
 ```
