@@ -6,8 +6,7 @@
 <br>
 <br>
 
-> `_syntax` 
-**função** **`cargo`**  
+***_syntax*** **função** **`cargo`**  
 ```javascript
 
 cargo(test...){
