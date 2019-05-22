@@ -91,9 +91,9 @@ _syntax **condição** **:** **operadores lógicos** **:** **ou**
   }
   ```
 
-_syntax **lista** `.novaLista`  
+_syntax **lista** `.listaNova`  
 ```javascript
-   listaDeCompras  .novaLista
+   listaDeCompras  .listaNova
 ```
 
 _syntax **lista** **:** `Item`
