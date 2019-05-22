@@ -1,10 +1,10 @@
-# enredo
+## enredo
 
 **Em construção**. Linguagem de programação moderna em português com o objetivo de facilitar o aprendizado de lógica de programação. Baseada em Javascript, feita com 💚
 
 ![alt text](https://biscoitofino.com.br/wp-content/uploads/2015/10/Capa-DVD-Martinho-da-Vila-Enredo.jpg "Logo Title Text 1")
 
-## Instalação
+### Instalação
 > $ npm i -g enredo && enr nomedoarquivo.enr  
 
 ### Função
