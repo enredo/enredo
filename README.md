@@ -24,23 +24,35 @@ _syntax **atribuição de valor** `ws`
   nome  'João'
 ```
 
-_syntax **exibir valor** `exibir(valor)`  
+_syntax **exibir valor** `exibir(valor)`   
 ```javascript
    nome  'João'
 
 exibir(nome) // João
 ```
 
-_syntax **condição**
+_syntax **condição**  sobre a verdade... `verdadeiro` , sobre a mentira... `falso`
 ```javascript
-se (condição) {
+se (verdadeiro) {
   ... faça algo
 }
 ```
 ```javascript
-   condicao  verdadeiro
+se (falso) {
+  ... faça algo
+}
+```
+```javascript
+   sobre a  verdade
 
-se (condicao) {
+se (verdade) {
+  exibir('Lindo dia')
+}
+```
+```javascript
+   sobre o falso
+
+se (falso) {
   exibir('Lindo dia')
 }
 ```
