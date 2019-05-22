@@ -24,16 +24,15 @@ Sintaxe atribuição de valor `ws`
 ```javascript
   nome  'João'
 ```
-### Exibir valor
-Sintaxe: `exibir(valor)`  
+
+Sintaxe exibir valor `exibir(valor)`  
 ```javascript
    nome  'João'
 
 exibir(nome) // João
 ```
 
-### Condicional
-Sintaxe: 
+Sintaxe condicional
 ```javascript
 se (condição) {
   ... faça algo
@@ -47,8 +46,7 @@ se (condicao) {
 }
 ```
 
-### Operadores lógicos
-maior
+Operadores lógicos> maior
 
 ```javascript
      numero  2
@@ -60,7 +58,7 @@ maior
 ```
 #
 
-igual
+Operadores lógicos > igual
 
 ```javascript
      numero  2
@@ -72,7 +70,7 @@ igual
 
 #
 
-menor
+Operadores lógicos > menor
 
 ```javascript
      numero  2
@@ -83,7 +81,7 @@ menor
   ```
 #
 
-ou
+Operadores lógicos > ou
 
 ```javascript
      numero  2
@@ -94,8 +92,7 @@ ou
   }
   ```
 
-### Lista
-Sintaxe: `.novaLista`  
+Sintaxe lista `.novaLista`  
 ```javascript
    listaDeCompras  .novaLista
 ```
