@@ -105,8 +105,8 @@ _syntax **lista** **:** `Item`
 
 #
 
-_syntax **lista** **:** **tamanho**
+_syntax **lista** **:** **quanto**
 
 ```javascript
-    listaDeCompras.tamanho // 2
+    listaDeCompras.quanto // 2
   ```
