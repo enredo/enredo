@@ -1,14 +1,14 @@
 const values = [{
   js: 'function',
-  enr: 'funcao'
+  enr: 'cargo'
 },
 {
   js: 'var',
-  enr: 'variavel'
+  enr: 'definir_:'
 },
 {
   js: '=',
-  enr: '<-'
+  enr: ' '
 },
 {
   js: ' == ',
@@ -36,7 +36,7 @@ const values = [{
 },
 {
   js: 'else',
-  enr: 'entao'
+  enr: 'deve'
 },
 {
   js: 'return',
@@ -48,7 +48,7 @@ const values = [{
 },
 {
   js: 'new Array()',
-  enr: '<NovaLista>'
+  enr: '.novaLista'
 },
 {
   js: 'push',
@@ -64,7 +64,7 @@ const values = [{
 },
 {
   js: 'forEach',
-  enr: 'paraCadaItem'
+  enr: 'paraCada'
 },
 {
   js: 'while',
@@ -72,7 +72,7 @@ const values = [{
 },
 {
   js: 'do',
-  enr: 'faca'
+  enr: 'crie'
 },
 {
   js: 'Unexpected identifier',
