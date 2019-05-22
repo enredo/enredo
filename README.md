@@ -54,7 +54,8 @@ se (condicao) {
 ```
 
 ### Operadores lógicos
-* `maior`
+
+`maior`
 
   ```javascript
   definir_: numero  2
@@ -62,8 +63,11 @@ se (condicao) {
   se (numero maior 1) {
     exibir('O numero é maior que 1')
   }
-  ```
-* `igual`
+
+```
+#
+
+`igual`
 
   ```javascript
   definir_: numero  2
@@ -71,8 +75,11 @@ se (condicao) {
   se (numero igual 2) {
     exibir('O numero é igual á 2')
   }
-  ```
-* `menor`
+```
+
+#
+
+`menor`
 
   ```javascript
   definir_: numero  2
@@ -81,7 +88,9 @@ se (condicao) {
     exibir('O numero é menor que 3')
   }
   ```
-* `ou`
+#
+
+`ou`
 
   ```javascript
   definir_: numero  2
