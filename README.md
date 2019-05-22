@@ -109,12 +109,9 @@ _syntax **condição** **:** **operadores lógicos** **:** **`maior`**
   }
 
 ```
-
 #
 
 <br>
-
-#
 
 _syntax **condição** **:** **operadores lógicos** **:** **`igual`**
 
@@ -125,10 +122,9 @@ _syntax **condição** **:** **operadores lógicos** **:** **`igual`**
     exibir('O numero é igual á 2')
   }
 ```
+#
 
 <br>
-
-#
 
 _syntax **condição** **:** **operadores lógicos** **:** **`menor`**
 
@@ -139,9 +135,9 @@ _syntax **condição** **:** **operadores lógicos** **:** **`menor`**
     exibir('O numero é menor que 3')
   }
   ```
-<br>
-
 #
+
+<br>
 
 _syntax **condição** **:** **operadores lógicos** **:** **`ou`**
 
@@ -162,6 +158,7 @@ _syntax **lista** **`.listaNova`**
 ```javascript
    listaDeCompras  .listaNova
 ```
+
 #
 
 <br>
@@ -173,9 +170,9 @@ _syntax **lista** **:** **`Item`**
     listaDeCompras.Item('farinha')
   ```
 
-<br>
-
 #
+
+<br>
 
 _syntax **lista** **:** **`quantidade`**
 
