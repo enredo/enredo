@@ -5,7 +5,7 @@
 <br>
 <br>
 
-_syntax **função** **`cargo`**  
+`:x:` _syntax **função** **`cargo`**  
 ```javascript
 
 cargo(test...){
@@ -13,25 +13,25 @@ cargo(test...){
 }
 ```
 
-_syntax **variáveis** **`ws`**  
+`:x:` _syntax **variáveis** **`ws`**  
 ```javascript
   valor1
   valor2
 ```
 
-_syntax **atribuição de valor** **`ws`**  
+`:x:` _syntax **atribuição de valor** **`ws`**  
 ```javascript
   nome  'João'
 ```
 
-_syntax **exibir valor** **`exibir(valor)`**   
+`:x:` _syntax **exibir valor** **`exibir(valor)`**   
 ```javascript
    nome  'João'
 
 exibir(nome) // João
 ```
 
-_syntax **condição** **`verdadeiro, verdade`**  ...  **`falso, mentira`**
+`:x:` _syntax **condição** **`verdadeiro, verdade`**  ...  **`falso, mentira`**
 ```javascript
 caso (verdade) {
   ... faça algo
@@ -57,7 +57,7 @@ caso (falso) {
 }
 ```
 
-_syntax **condição** **:** **operadores lógicos** **:** **`maior`**
+`:x:` _syntax **condição** **:** **operadores lógicos** **:** **`maior`**
 
 ```javascript
      numero  2
@@ -69,7 +69,7 @@ _syntax **condição** **:** **operadores lógicos** **:** **`maior`**
 ```
 #
 
-_syntax **condição** **:** **operadores lógicos** **:** **`igual`**
+`:x:` _syntax **condição** **:** **operadores lógicos** **:** **`igual`**
 
 ```javascript
      numero  2
@@ -81,7 +81,7 @@ _syntax **condição** **:** **operadores lógicos** **:** **`igual`**
 
 #
 
-_syntax **condição** **:** **operadores lógicos** **:** **`menor`**
+`:x:` _syntax **condição** **:** **operadores lógicos** **:** **`menor`**
 
 ```javascript
      numero  2
@@ -92,7 +92,7 @@ _syntax **condição** **:** **operadores lógicos** **:** **`menor`**
   ```
 #
 
-_syntax **condição** **:** **operadores lógicos** **:** **`ou`**
+`:x:` _syntax **condição** **:** **operadores lógicos** **:** **`ou`**
 
 ```javascript
      numero  2
@@ -103,12 +103,12 @@ _syntax **condição** **:** **operadores lógicos** **:** **`ou`**
   }
   ```
 
-_syntax **lista** **`.listaNova`**  
+`:x:` _syntax **lista** **`.listaNova`**  
 ```javascript
    listaDeCompras  .listaNova
 ```
 
-_syntax **lista** **:** **`Item`**
+`:x:` _syntax **lista** **:** **`Item`**
 
   ```javascript
     listaDeCompras.Item('batata')  , ...
@@ -117,7 +117,7 @@ _syntax **lista** **:** **`Item`**
 
 #
 
-_syntax **lista** **:** **`quantidade`**
+`:x:` _syntax **lista** **:** **`quantidade`**
 
 ```javascript
     listaDeCompras.quantidade // 2
