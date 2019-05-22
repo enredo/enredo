@@ -5,7 +5,7 @@
 <br>
 <br>
 
-_syntax **função** `cargo`  
+_syntax **função** **`cargo`**  
 ```javascript
 
 cargo(test...){
@@ -13,25 +13,25 @@ cargo(test...){
 }
 ```
 
-_syntax **variáveis** `ws`  
+_syntax **variáveis** **`ws`**  
 ```javascript
   valor1
   valor2
 ```
 
-_syntax **atribuição de valor** `ws`  
+_syntax **atribuição de valor** **`ws`**  
 ```javascript
   nome  'João'
 ```
 
-_syntax **exibir valor** `exibir(valor)`   
+_syntax **exibir valor** **`exibir(valor)`**   
 ```javascript
    nome  'João'
 
 exibir(nome) // João
 ```
 
-_syntax **condição** `verdadeiro, verdade` ...  `falso, mentira`
+_syntax **condição** **`verdadeiro, verdade`**  ...  **`falso, mentira`**
 ```javascript
 caso (verdade) {
   ... faça algo
@@ -57,7 +57,7 @@ caso (falso) {
 }
 ```
 
-_syntax **condição** **:** **operadores lógicos** **:** `maior`
+_syntax **condição** **:** **operadores lógicos** **:** **`maior`**
 
 ```javascript
      numero  2
@@ -69,7 +69,7 @@ _syntax **condição** **:** **operadores lógicos** **:** `maior`
 ```
 #
 
-_syntax **condição** **:** **operadores lógicos** **:** `igual`
+_syntax **condição** **:** **operadores lógicos** **:** **`igual`**
 
 ```javascript
      numero  2
@@ -81,7 +81,7 @@ _syntax **condição** **:** **operadores lógicos** **:** `igual`
 
 #
 
-_syntax **condição** **:** **operadores lógicos** **:** `menor`
+_syntax **condição** **:** **operadores lógicos** **:** **`menor`**
 
 ```javascript
      numero  2
@@ -92,7 +92,7 @@ _syntax **condição** **:** **operadores lógicos** **:** `menor`
   ```
 #
 
-_syntax **condição** **:** **operadores lógicos** **:** `ou`
+_syntax **condição** **:** **operadores lógicos** **:** **`ou`**
 
 ```javascript
      numero  2
@@ -103,12 +103,12 @@ _syntax **condição** **:** **operadores lógicos** **:** `ou`
   }
   ```
 
-_syntax **lista** `.listaNova`  
+_syntax **lista** **`.listaNova`**  
 ```javascript
    listaDeCompras  .listaNova
 ```
 
-_syntax **lista** **:** `Item`
+_syntax **lista** **:** **`Item`**
 
   ```javascript
     listaDeCompras.Item('batata')  , ...
