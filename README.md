@@ -96,11 +96,11 @@ _syntax **lista** `.novaLista`
    listaDeCompras  .novaLista
 ```
 
-_syntax **lista** **:** `adicionarItem`
+_syntax **lista** **:** `Item`
 
   ```javascript
-    listaDeCompras.adicionarItem('batata')
-    listaDeCompras.adicionarItem('farinha')
+    listaDeCompras.Item('batata')  , ...
+    listaDeCompras.Item('farinha')
   ```
 
 #
