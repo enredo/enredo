@@ -4,7 +4,8 @@ Linguagem de programação moderna em português com o objetivo de facilitar o a
 **Em construção**  
 
 ### Instalação
-> $ npm i -g enredo && enr nomedoarquivo.enr  
+
+> **$** npm i -g enr && enr nomedoarquivo.enr  
 
 ### Função
 Sintaxe: `cargo`  
@@ -23,7 +24,7 @@ Sintaxe: `  `
 ```
 
 ### Atribuição de valor
-Sintaxe: ` `  
+Sintaxe: `ws`  
 ```javascript
   nome  'João'
 ```
